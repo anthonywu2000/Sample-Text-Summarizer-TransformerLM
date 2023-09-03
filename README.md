@@ -8,6 +8,8 @@ The use of multi-head attention is to capture the relationship of words/texts ba
 
 Additionally, the positional encoding is used to give information to the model about the relative word positions within the sequence.
 
+<img width="527" alt="Screen Shot 2023-09-03 at 4 57 22 PM" src="https://github.com/anthonywu2000/Sample-Text-Summarizer-TransformerLM/assets/52024770/d0a7f929-0e0f-46ff-b80b-bf1cd90da901">
+
 The model is also implemented with a greedy decoder at the end, specifying the most probable word that comes next in the sequence after each produced generated word.
 Metrics of this model include cross-entropy loss and accuracy. 
 
